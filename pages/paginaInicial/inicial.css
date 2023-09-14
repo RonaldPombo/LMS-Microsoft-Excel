@@ -30,7 +30,7 @@ header {
   padding: 2.5rem;
   width: 100%;
   min-height: 10vh;
-  background-color: #0072b6;
+  background-color: var(--color-verdeEscuro);
   display: flex;
   align-items: center;
   gap: 2rem;
@@ -155,7 +155,7 @@ a {
 
 .title {
   font-size: var(--text-giga);
-  color: var(--color-azulClaro);
+  color: var(--color-verdeClaro);
 }
 
 .paragraph {
@@ -199,7 +199,7 @@ a {
 
 .title2 {
   text-align: center;
-  color: var(--color-azulClaro);
+  color: var(--color-verdeClaro);
 }
 
 .paragraph2 {
@@ -210,7 +210,7 @@ a {
 }
 
 b {
-  color: var(--color-azulEscuro);
+  color: var(--color-verdeEscuro);
 }
 
 @media (max-width: 768px) {

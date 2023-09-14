@@ -4,10 +4,8 @@ html {
   scroll-behavior: smooth;
 }
 
-a {
-  color: var(--color-white);
-  text-decoration: none;
-  font-size: 18px;
+body {
+  background-color: var(--color-white);
 }
 
 header {
@@ -19,6 +17,19 @@ header {
   align-items: center;
   gap: 2rem;
   justify-content: space-between;
+}
+
+#Office {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#btn-mobile {
+  display: none;
 }
 
 .nav-items {
@@ -43,19 +54,6 @@ header {
   width: 100%;
 }
 
-#Office {
-  color: white;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-}
-
-#btn-mobile {
-  display: none;
-}
-
 .navbar-menu {
   display: flex;
   flex-direction: row;
@@ -65,11 +63,7 @@ a {
   font-weight: 700;
 }
 
-body {
-  background-color: var(--color-white);
-}
-
-.landing-page-paginaInserir {
+.landing-page {
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -78,7 +72,7 @@ body {
   background-color: var(--color--white2);
 }
 
-.landing-page-wrapper-paginaInserir {
+.landing-page-wrapper {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -114,9 +108,10 @@ body {
 .text > p {
   font-size: 22px;
   color: var(--color-cinza);
+  text-align: justify;
 }
 
-.ferramentas-paginaInserir {
+.ferramentas {
   width: 100%;
   min-height: 100vh;
   padding: 2rem;
@@ -126,12 +121,12 @@ body {
   gap: 3rem;
 }
 
-.ferramentas-paginaInserir > h1 {
+.ferramentas > h1 {
   font-size: 3rem;
   color: var(--color-verdeClaro);
 }
 
-.ferramentas-paginaInserir > p {
+.ferramentas > p {
   width: 700px;
   font-size: 22px;
   color: var(--color-cinza);
@@ -143,22 +138,19 @@ p > strong {
 }
 
 @media (max-width: 1280px) {
-  .landing-page-wrapper-paginaInserir {
+  .landing-page-wrapper {
     gap: 3rem;
   }
   .landing-page-image {
     width: 500px;
   }
 
-  .landing-page-wrapper-paginaInserir > .text {
+  .landing-page-wrapper > .text {
     text-align: center;
   }
 }
 
 @media (max-width: 700px) {
-  header {
-    padding: 2rem;
-  }
   #btn-mobile {
     display: flex;
     padding: 0.5rem 1rem;
@@ -195,7 +187,7 @@ p > strong {
   .header-navbar.active > .navbar-menu {
     position: absolute;
     width: 100%;
-    top: 100px;
+    top: 70px;
     right: 0;
     display: flex;
     align-items: center;
@@ -207,7 +199,7 @@ p > strong {
     z-index: 1;
     visibility: hidden;
     overflow-y: hidden;
-    background-color: var(--color-verdeEscuro);
+    background-color: #0072b6;
     transition: 1s;
   }
 
@@ -229,11 +221,11 @@ p > strong {
     top: -7px;
   }
 
-  .landing-page-wrapper-paginaInserir > .text > h1 {
+  .landing-page-wrapper > .text > h1 {
     font-size: 3rem;
   }
 
-  .landing-page-wrapper-paginaInserir > .text > p {
+  .landing-page-wrapper > .text > p {
     font-size: 18px;
   }
 
@@ -241,11 +233,11 @@ p > strong {
     width: 350px;
   }
 
-  .landing-page-wrapper-paginaInserir > .text {
+  .landing-page > .text {
     width: auto;
   }
 
-  .ferramentas-paginaInserir > p {
+  .ferramentas > p {
     font-size: 18px;
     width: auto;
   }

@@ -1,8 +1,8 @@
 :root {
-  --color-white: #ebebeb;
   --color--white2: #f6f6f6;
-  --color-azulEscuro: #033f63;
-  --color-azulClaro: #1b9aaa;
+  --color-white: #F0F4F1;
+  --color-verdeEscuro: #207245;
+  --color-verdeClaro:  #448963;
   --color-cinza: #545454;
 
   --text-mini: 1.2rem;

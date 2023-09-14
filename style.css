@@ -1,7 +1,7 @@
 :root {
-  --color-white: #ebebeb;
-  --color-azulEscuro: #033f63;
-  --color-azulClaro: #1b9aaa;
+  --color-white: #F0F4F1;
+  --color-verdeEscuro: #207245;
+  --color-verdeClaro:  #448963;
   --color-cinza: #545454;
   --text-pequeno: 1.5rem;
   --text-grande: 2rem;
@@ -46,7 +46,7 @@ header {
   padding: 2.5rem;
   width: 100%;
   min-height: 10vh;
-  background-color: #0072b6;
+  background-color: var(--color-verdeEscuro);
   display: flex;
   align-items: center;
   gap: 2rem;
@@ -103,11 +103,11 @@ header {
 #tt1 {
   font-size: 2rem;
   text-transform: uppercase;
-  color: var(--color-azulEscuro);
+  color: var(--color-verdeEscuro);
 }
 #tt2 {
   font-size: 4rem;
-  color: var(--color-azulClaro);
+  color: var(--color-verdeClaro);
 }
 .container-shortcut {
   width: 100%;
@@ -134,7 +134,7 @@ header {
   justify-content: center;
 }
 #word {
-  color: var(--color-azulClaro);
+  color: var(--color-verdeClaro);
   font-size: var(--text-grande);
 }
 #content {
@@ -160,7 +160,7 @@ header {
 }
 #atalhos {
   text-align: center;
-  color: var(--color-azulClaro);
+  color: var(--color-verdeClaro);
 }
 .sideleft {
   width: 50%;
@@ -182,7 +182,7 @@ header {
 #link {
   font-weight: 600;
   text-align: center;
-  color: var(--color-azulClaro);
+  color: var(--color-verdeClaro);
 }
 .sideright {
   width: 50%;
@@ -195,7 +195,7 @@ header {
 }
 #destaque {
   font-weight: 600;
-  color: var(--color-azulEscuro);
+  color: var(--color-verdeClaro);
 }
 .container-pages {
   width: 100%;
@@ -216,7 +216,7 @@ header {
 }
 #pages {
   font-weight: 600;
-  color: var(--color-azulClaro);
+  color: var(--color-verdeClaro);
   font-size: var(--text-grande);
 }
 .container-cards {
@@ -252,12 +252,12 @@ header {
 #pg {
   text-align: center;
   font-size: 1.5rem;
-  color: var(--color-azulEscuro);
+  color: var(--color-verdeClaro);
   font-weight: 900;
 }
 #btn {
   height: 2rem;
-  background-color: var(--color-azulClaro);
+  background-color: var(--color-verdeClaro);
   border: none;
   color: var(--color-white);
   font-weight: 900;
@@ -272,8 +272,8 @@ header {
 
 #btn:hover {
   background-color: #fff;
-  color: var(--color-azulClaro);
-  border: 1px solid var(--color-azulClaro);
+  color: var(--color-verdeClaro);
+  border: 1px solid var(--color-verdeClaro);
 }
 
 @media (max-width: 900px) {
